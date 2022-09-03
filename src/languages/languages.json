@@ -1,0 +1,26 @@
+{
+  "español": {
+    "NavBar": {
+      "home": "Home",
+      "projects": "Projectos",
+      "contact": "Contacto"
+    },
+    "Home": {
+      "title": "Ignacio Perez Gullermo",
+      "subtitle": "Desarrollo Web Full Stack",
+      "description": "Llevo dos años estudiando y aprendiendo desarrollo web. Empecé con cursos vía web aprendiendo HTML y CSS, luego JavaScript. Siempre fui un poquito un friki de la tecnología, y también un autodidacta. Quien iba a pensar que podría encontrar una profesión que sea tan compatible conmigo. Desde Junio de 2022, ingrese en Henry para darle un ultimo (y necesario) empujón a mis aspiraciones profesionales con la programación. Estoy ansioso por empezar a trabajar en este rubro tan hermoso y de tan constante evolución."
+    }
+  },
+  "english": {
+    "NavBar": {
+      "home": "Home",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "Home": {
+      "title": "Ignacio Perez Gullermo",
+      "subtitle": "Full Stack Web Development",
+      "description": "I've been studying and learning about web Development. I started with video lesson, learning HTML y CSS, and then JavaScript. Since kid, I'm somthing of a tech freak, and also and a self-taught person. Who would have thought that I would find a profesión that combines the two?I started at June of 2022 to study in Henry to give to my profesional aspirations as a developer one last (and necessary) boost. I'm anxious to start working on this area, that is so interesting and in constant progress."
+    }
+  }
+}

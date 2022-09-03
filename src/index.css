@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Roboto:wght@100;300&display=swap");
+.nav-bar {
+  width: 60%;
+  height: 6vh;
+  border-radius: 2vw;
+  display: flex;
+  background-color: rgb(62, 56, 56);
+  align-content: center;
+  align-content: space-between;
+  position: absolute;
+  top: 2%;
+  left: 30%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.links {
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-family: "Catamaran", sans-serif;
+  color: #fffade;
+  margin: 0vw 4vw 0px 5vw;
+  line-height: 6vh;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
+
+.logo-git {
+  background-color: #fffade;
+  position: absolute;
+  top: 0.3vh;
+  left: 68%;
+  border-radius: 3vw;
+  width: 2.8vw;
+  height: 5.1vh;
+  margin: 0 2vw;
+  z-index: 0;
+}
+
+.github {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.logo-linkedin {
+  background-color: #fffade;
+  position: absolute;
+  top: 0.4vh;
+  left: 65%;
+  border-radius: 3vw;
+  width: 2.8vw;
+  height: 5vh;
+  margin: 0 12vw;
+  z-index: 0;
+}
+
+.linkedin {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.active {
+  color: white;
+  text-shadow: 0 0 7px #e9afff, 0 0 10px #e9afff, 0 0 21px #e9afff, 0 0 42px #e9afff, 0 0 82px #e9afff, 0 0 92px #e9afff, 0 0 102px #e9afff, 0 0 151px #e9afff;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right bottom, #554d51, #5a4d57, #5c4d60, #5b4f6a, #545275, #4d4f79, #444c7d, #394a81, #383f7d, #3a3378, #3e2671, #431468);
+}/*# sourceMappingURL=index.css.map */

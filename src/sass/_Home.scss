@@ -1,0 +1,126 @@
+.home-container {
+  width: 80vw;
+  height: 80vh;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+.text-container {
+  font-family: "Catamaran", sans-serif;
+  position: absolute;
+  left: 2%;
+  width: 50vw;
+  height: 50vh;
+  text-align: center;
+  padding-top: 3vw;
+  .title {
+    font-weight: 400;
+    font-size: 3.5vw;
+    margin-block: 0.5vw;
+    color: white;
+    letter-spacing: 0.2vw;
+    text-shadow: 0 0 7px $color2, 0 0 10px $color2;
+  }
+  .subtitle {
+    font-weight: 200;
+    font-size: 2.2vw;
+    margin-block: 0.2vw;
+    color: white;
+    letter-spacing: 0.15vw;
+    text-shadow: 0 0 7px $color2, 0 0 10px $color2;
+  }
+  .description {
+    position: absolute;
+    font-weight: 200;
+    font-size: 1.2vw;
+    color: white;
+    margin-right: 15%;
+    width: 70%;
+    right: 0%;
+  }
+}
+.img-container {
+  position: absolute;
+  right: 0%;
+  top: 10%;
+  width: 25vw;
+  height: 65vh;
+  background-color: $color7;
+}
+.owner-photo {
+  object-fit: cover;
+  height: 65vh;
+  margin-left: 2vw;
+}
+.stack-bar {
+  position: absolute;
+  background-color: $color6;
+  border-radius: 3vw;
+  width: 50vw;
+  height: 8vh;
+  bottom: 10%;
+  left: 0%;
+  display: flex;
+  padding: 1vw 2vw;
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(154, 154, 154, 0.48);
+  box-shadow: 5px 5px 0px 0px rgba(154, 154, 154, 0.48);
+}
+.logo-container {
+  margin-left: 2.5vw;
+}
+.js-logo-container {
+  width: 10%;
+  height: 100%;
+  margin-left: 3vw;
+}
+.js-logo {
+  height: 4vw;
+  object-fit: cover;
+  align-items: center;
+}
+.node-logo-container {
+  width: 10%;
+  height: 100%;
+}
+.node-logo {
+  height: 4vw;
+  object-fit: cover;
+  align-items: center;
+  color: green;
+}
+.react-logo-container {
+  width: 10%;
+  height: 100%;
+}
+.react-logo {
+  height: 4vw;
+  object-fit: cover;
+  align-items: center;
+}
+.postgres-logo-container {
+  width: 10%;
+  height: 100%;
+}
+.postgres-logo {
+  height: 4vw;
+  object-fit: cover;
+  align-items: center;
+}
+.html-logo-container {
+  width: 10%;
+  height: 100%;
+}
+.html-logo {
+  height: 4vw;
+  object-fit: cover;
+  align-items: center;
+}
+.sass-logo-container {
+  width: 10%;
+  height: 100%;
+}
+.sass-logo {
+  height: 4vw;
+  object-fit: cover;
+  align-items: center;
+}

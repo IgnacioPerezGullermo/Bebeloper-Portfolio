@@ -1,0 +1,255 @@
+@import "../sass/fonts";
+
+.project-container {
+  width: 70vw;
+  height: 50vh;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  padding: 5vw;
+}
+.project {
+  width: 30vw;
+  height: 50vh;
+  //border: 1px solid black;
+  border-radius: 1.5vw;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.61);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.61);
+}
+.dogs {
+  position: absolute;
+  overflow: hidden;
+  left: 8%;
+  img {
+    position: relative;
+    object-fit: cover;
+    border-radius: 1.5vw;
+    width: 100%;
+    height: 65%;
+  }
+  .info-container {
+    position: relative;
+    width: 100%;
+    background-color: $color5;
+    height: 80%;
+    top: -5%;
+    padding: 0.5vw 2vw;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.tlf {
+  position: absolute;
+  overflow: hidden;
+  right: 8%;
+  img {
+    position: relative;
+    object-fit: cover;
+    border-radius: 1.5vw;
+    width: 100%;
+    height: 65%;
+  }
+  .info-container {
+    position: relative;
+    width: 100%;
+    background-color: $color5;
+    height: 40%;
+    top: -5%;
+    padding: 0.5vw 2vw;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.info {
+  text-align: center;
+  width: 85%;
+  font-family: "Catamaran", sans-serif;
+  color: $color4;
+  margin-block: 0.2vh;
+  font-size: 1.8vw;
+  text-shadow: 0 0 7px $color2, 0 0 10px $color2, 0 0 21px $color2,
+    0 0 42px $color2;
+}
+.info-description {
+  text-align: center;
+  width: 85%;
+  font-family: "Catamaran", sans-serif;
+  color: $color4;
+  margin-block: 0.5vh;
+  font-size: 1vw;
+}
+.techs-wrap-tlf {
+  position: absolute;
+  top: 49%;
+  right: 28%;
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+  z-index: 5;
+  .html-logo-container {
+    width: 12%;
+    height: 100%;
+    margin-left: 2vw;
+  }
+  .html-logo {
+    height: 5vh;
+    object-fit: contain;
+    align-items: center;
+  }
+  .sass-logo-container {
+    width: 12%;
+    height: 100%;
+    margin-left: 3vw;
+  }
+  .sass-logo {
+    height: 5vh;
+    object-fit: contain;
+    align-items: center;
+  }
+  .js-logo-container {
+    width: 19%;
+    height: 100%;
+    margin-left: 3vw;
+  }
+  .js-logo {
+    height: 5vh;
+    object-fit: contain;
+  }
+}
+.techs-wrap-dogs {
+  position: absolute;
+  top: 49%;
+  right: 75%;
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+  z-index: 5;
+  .node-logo-container {
+    width: 12%;
+    height: 100%;
+    margin-left: 2.5vw;
+  }
+  .node-logo {
+    height: 5vh;
+    object-fit: contain;
+    align-items: center;
+  }
+  .react-logo-container {
+    width: 12%;
+    height: 100%;
+    margin-left: 3vw;
+  }
+  .react-logo {
+    height: 5vh;
+    object-fit: contain;
+    align-items: center;
+  }
+  .postgres-logo-container {
+    width: 19%;
+    height: 100%;
+    margin-left: 3vw;
+  }
+  .postgres-logo {
+    height: 5vh;
+    object-fit: contain;
+  }
+}
+.arrow-techs-tlf {
+  position: absolute;
+  left: -18%;
+  top: 48%;
+  z-index: 2;
+  width: 20vw;
+  height: 6vh;
+  background: rgba(88, 6, 166, 0.945);
+  display: flex;
+}
+.arrow-techs-tlf:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.arrow-techs-tlf:before {
+  content: "";
+  position: absolute;
+  right: -15px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 2vh solid rgba(88, 6, 166, 0.945);
+  border-top: 3vh solid transparent;
+  border-bottom: 3vh solid transparent;
+}
+.arrow-techs-dogs {
+  position: absolute;
+  left: -18%;
+  top: 48%;
+  z-index: 9;
+  width: 20vw;
+  height: 6vh;
+  z-index: 2;
+  background: rgba(89, 6, 166, 0.945);
+  display: flex;
+  .html-logo-container {
+    width: 12%;
+    height: 100%;
+    margin-left: 8vw;
+  }
+  .html-logo {
+    height: 6vh;
+    object-fit: contain;
+    align-items: center;
+  }
+  .sass-logo-container {
+    width: 12%;
+    height: 100%;
+  }
+  .sass-logo {
+    height: 6vh;
+    object-fit: contain;
+    align-items: center;
+  }
+  .js-logo-container {
+    width: 19%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .js-logo {
+    height: 6vh;
+    width: 2vw;
+    object-fit: contain;
+  }
+}
+.arrow-techs-dogs:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.arrow-techs-dogs:before {
+  content: "";
+  position: absolute;
+  right: -15px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 2vh solid rgba(88, 6, 166, 0.945);
+  border-top: 3vh solid transparent;
+  border-bottom: 3vh solid transparent;
+}
