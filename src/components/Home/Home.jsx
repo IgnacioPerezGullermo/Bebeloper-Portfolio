@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from '../../index.scss';
 import Tooltip from '@mui/material/Tooltip';
-import dummy from '../../assets/dummy.png';
+import dummy from '../../assets/medummy.png';
+import node from '../../assets/nodelogo.png';
 
 export const Home = ({ sourceLang }) => {
   return (
@@ -27,11 +28,7 @@ export const Home = ({ sourceLang }) => {
         </div>
         <div className="logo-container node-logo-container">
           <Tooltip title="Node JS">
-            <img
-              className="node-logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/7/70/Font_Awesome_5_brands_node-js.svg"
-              alt="node-logo"
-            />
+            <img className="node-logo" src={node} alt="node-logo" />
           </Tooltip>
         </div>
         <div className="logo-container react-logo-container">

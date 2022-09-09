@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../../assets/Logo.png';
 import languages from '../../languages/languages.json';
+import { Contact } from '../Contact/Contact';
 import { Home } from '../Home/Home';
 import { NavBar } from '../NavBar/NavBar';
 import { Project } from '../Project/Project';
@@ -52,7 +53,7 @@ export const Main = () => {
           Site={Site}
           setSite={setSite}
         ></NavBar>
-        <Project></Project>
+        <Project sourceLang={sourceLang}></Project>
       </div>
     );
   }
@@ -73,6 +74,7 @@ export const Main = () => {
           Site={Site}
           setSite={setSite}
         ></NavBar>
+        <Contact sourceLang={sourceLang}></Contact>
       </div>
     );
   }

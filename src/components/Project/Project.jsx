@@ -3,6 +3,7 @@ import styles from '../../index.scss';
 import TLF from '../../assets/TLF.png';
 import Dogs from '../../assets/Dogs.png';
 import Tooltip from '@mui/material/Tooltip';
+import node from '../../assets/nodelogo.png';
 
 export const Project = () => {
   return (
@@ -25,11 +26,7 @@ export const Project = () => {
       <div className="techs-wrap-dogs">
         <div className="logo-container node-logo-container">
           <Tooltip title="Node JS" placement="top">
-            <img
-              className="node-logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/7/70/Font_Awesome_5_brands_node-js.svg"
-              alt="node-logo"
-            />
+            <img className="node-logo" src={node} alt="node-logo" />
           </Tooltip>
         </div>
         <div className="logo-container react-logo-container">

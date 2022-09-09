@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../../index.scss';
+import '../../index.scss';
 
 export const NavBar = ({
   Site,
@@ -54,6 +54,15 @@ export const NavBar = ({
         <div>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/6/65/Linkedin-png-linkedin-icon-1600.png"
+            alt="linkedin"
+            className="github"
+          />
+        </div>
+      </a>
+      <a href="https://wa.link/9zemij" className="logo-whatsapp">
+        <div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
             alt="linkedin"
             className="github"
           />

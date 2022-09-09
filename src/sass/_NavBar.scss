@@ -21,26 +21,28 @@
   font-family: "Catamaran", sans-serif;
   width: 10%;
   color: $color4;
-  margin: 0vw 3vw 0px 5vw;
+  margin: 0vw 3vw 0px 3vw;
   line-height: 6vh;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  transition: 500ms;
 }
 
 .logo-git {
   position: static;
+  
   top: 1vh;
   left: 63%;
   width: 3vw;
   height: 5.5vh;
   margin: 1vh 2vw;
-  background-color: $color4;
+  background-color: white;
   border-radius: 1vw;
   padding: 0.1vw 0.2vh;
   z-index: 0;
   overflow: hidden;
-
+  transition: 500ms;
   img {
     position: absolute;
     top: 0%;
@@ -58,14 +60,15 @@
 .logo-linkedin {
   position: absolute;
   top: 1vh;
-  left: 75%;
+  left: 67%;
   width: 3vw;
   height: 5.5vh;
   margin: 0 2vw;
-  background-color: $color4;
+  background-color: white;
   border-radius: 1vw;
   padding: 0.1vw 0.2vh;
   z-index: 0;
+  transition: 500ms;
   img {
     position: absolute;
     top: 0%;
@@ -78,6 +81,32 @@
   }
 }
 .logo-linkedin:hover {
+  background-color: $color2;
+}
+.logo-whatsapp  {
+  position: absolute;
+  top: 1vh;
+  left: 76%;
+  width: 3vw;
+  height: 5.5vh;
+  margin: 0 2vw;
+  background-color: white;
+  border-radius: 1vw;
+  padding: 0.1vw 0.2vh;
+  z-index: 0;
+  transition: 500ms;
+  img {
+    position: absolute;
+    top: 0%;
+    width: 3vw;
+    height: 5.5vh;
+    margin-top: 0.3vh;
+    margin-left: 0vw;
+    object-fit: contain;
+    z-index: 2;
+  }
+}
+.logo-whatsapp:hover {
   background-color: $color2;
 }
 .selectLang {

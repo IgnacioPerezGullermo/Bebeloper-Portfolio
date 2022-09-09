@@ -1,0 +1,84 @@
+@import "./fonts";
+
+.contact-container{
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    top: 25%;
+    left: 20%;
+    border-radius: 2vw;
+    background-color: $color6;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.61);
+    .contact-title{
+        font-family: $main-font;
+        color: white;
+        text-shadow: $text-shadow;
+        font-size: 2vw;
+        margin-block: 2vh;
+        margin-left: 4vw;
+        letter-spacing: .2vh;
+    }
+}
+.form{
+    position: relative;
+    top: 0%;
+    width: 45%;
+    height: 80%;
+    margin-left: 4vw;
+    //border: 1px solid black;
+}
+.label-cont{
+    //border: 1px solid black;
+    width: 100%;
+    display: grid;
+    align-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1vh;
+}
+.text-field{
+    width: 11vw;
+    margin-block: 2vh;
+    right: 0%;
+}
+.bussiness{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.long{
+    width: 24.8vw;
+//    height: 10vh;
+}
+.submit-container{
+    align-items:flex-start;
+    margin-top: 2vh;
+}
+.submit-button{
+    width: 50%;
+    
+}
+.draw-img{
+    //border: 1px solid black;
+    position: absolute;
+    right: 10%;
+    top: 0%;
+    height: 100%;
+}
+.draw-container{
+    position: absolute;
+    width: 126px;
+    right: 8%;
+    top: 5%;
+    width: 34%;
+    height: 90%;
+      background-color: $color2;
+      animation: color-change 5s infinite;
+      border-radius: 2vw
+}
+@keyframes color-change {
+    0% { background-color: $color2; }
+    20% { background-color: $pink2; }
+    40% { background-color: $orange1; }
+    60% { background-color: $orange2; }
+    80% { background-color: $pink3; }
+    100% { background-color: $color2; }
+  }
