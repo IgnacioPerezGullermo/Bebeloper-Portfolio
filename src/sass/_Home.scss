@@ -45,15 +45,17 @@
   right: 0%;
   top: 10%;
   width: 25vw;
-  height: 65vh;
+  height: 55vh;
+  border-radius: 8vw 8vw 1gitvw 1vw;
   background-color: $color7;
+  overflow: hidden;
 }
 .owner-photo {
   object-fit: cover;
-  height: 125vh;
+  height: 110vh;
   position: absolute;
-  top: -22%;
-  right: -10%;
+  top: -34%;
+  right: -5%;
 }
 .stack-bar {
   position: absolute;
