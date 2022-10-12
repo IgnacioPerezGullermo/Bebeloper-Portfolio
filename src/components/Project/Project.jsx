@@ -5,7 +5,7 @@ import Dogs from '../../assets/Dogs.png';
 import Tooltip from '@mui/material/Tooltip';
 import node from '../../assets/nodelogo.png';
 
-export const Project = () => {
+export const Project = ({ sourceLang }) => {
   return (
     <div className="project-container">
       <div className="project dogs">
@@ -17,8 +17,7 @@ export const Project = () => {
           <a href="https://pi-dogs-henry-flame.vercel.app">
             <p className="info">Dogs App</p>
             <p className="info-description">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              delectus explicabo, necessitatibus, consequuntur distinctio non.
+              {sourceLang.Project.dogsapp.desc}
             </p>
           </a>
         </div>
@@ -87,8 +86,7 @@ export const Project = () => {
           <a href="https://todos-los-fuegos-band.netlify.app">
             <p className="info">Rock Band Page</p>
             <p className="info-description">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              delectus explicabo, necessitatibus, consequuntur distinctio non.
+              {sourceLang.Project.rockband.desc}
             </p>
           </a>
         </div>

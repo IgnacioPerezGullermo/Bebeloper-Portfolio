@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../index.scss';
 import Tooltip from '@mui/material/Tooltip';
-import dummy from '../../assets/medummy.png';
+import dummy from '../../assets/yo.png';
 import node from '../../assets/nodelogo.png';
 
 export const Home = ({ sourceLang }) => {
@@ -63,6 +63,15 @@ export const Home = ({ sourceLang }) => {
             <img
               className="sass-logo"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg"
+              alt="node-logo"
+            />
+          </Tooltip>
+        </div>
+        <div className="logo-container typescript-logo-container">
+          <Tooltip title="TypeScript">
+            <img
+              className="typescript-logo"
+              src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
               alt="node-logo"
             />
           </Tooltip>
