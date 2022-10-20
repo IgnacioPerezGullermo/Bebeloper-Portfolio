@@ -22,7 +22,7 @@
 .dogs {
   position: absolute;
   overflow: hidden;
-  left: 8%;
+  left: -10%;
   img {
     position: relative;
     object-fit: cover;
@@ -45,7 +45,7 @@
 .tlf {
   position: absolute;
   overflow: hidden;
-  right: 8%;
+  right: 31%;
   img {
     position: relative;
     object-fit: cover;
@@ -86,7 +86,7 @@
 .techs-wrap-tlf {
   position: absolute;
   top: 49%;
-  right: 28%;
+  right: 51%;
   width: 15vw;
   height: 5vh;
   display: flex;
@@ -125,7 +125,7 @@
 .techs-wrap-dogs {
   position: absolute;
   top: 49%;
-  right: 75%;
+  right: 93%;
   width: 15vw;
   height: 5vh;
   display: flex;
@@ -162,6 +162,56 @@
     object-fit: contain;
   }
 }
+.techs-wrap-leafme {
+  position: absolute;
+  top: 49%;
+  right: 11%;
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+  z-index: 5;
+  
+  .node-logo-container {
+    width: 12%;
+    height: 100%;
+    margin-left: 2.5vw;
+  }
+  .node-logo {
+    margin-top: 1vh;
+    height: 5vh;
+    object-fit: contain;
+    align-items: center;
+  }
+  .react-logo-container {
+    width: 12%;
+    height: 100%;
+    margin-left: 2vw;
+  }
+  .react-logo {
+    height: 5vh;
+    object-fit: contain;
+    align-items: center;
+  }
+  .mongodb-logo-container {
+    width: 19%;
+    height: 100%;
+    margin-left: 2vw;
+  }
+  .mongodb-logo {
+    height: 5vh;
+    object-fit: contain;
+  }
+  .typescript-logo-container {
+    width: 19%;
+    height: 100%;
+    margin-left: 0.5vw;
+    background-color: white;
+  }
+  .typescript-logo {
+    height: 5vh;
+    object-fit: contain;
+  }
+}
 .arrow-techs-tlf {
   position: absolute;
   left: -18%;
@@ -169,7 +219,7 @@
   z-index: 2;
   width: 20vw;
   height: 6vh;
-  background: $color4;
+  background: rgba(107, 99, 99, 0.767);
   display: flex;
   -webkit-box-shadow: 4px 5px 4px -2px rgba(0,0,0,0.68); 
 box-shadow: 4px 5px 4px -2px rgba(0,0,0,0.68);
@@ -192,7 +242,7 @@ box-shadow: 4px 5px 4px -2px rgba(0,0,0,0.68);
   bottom: 0;
   width: 0;
   height: 0;
-  border-left: 2vh solid $color4;
+  border-left: 2vh solid transparent;
   border-top: 3vh solid transparent;
   border-bottom: 3vh solid transparent;
 }
@@ -204,7 +254,7 @@ box-shadow: 4px 5px 4px -2px rgba(0,0,0,0.68);
   width: 20vw;
   height: 6vh;
   z-index: 2;
-  background: $color4;
+  background: rgba(107, 99, 99, 0.767);
   display: flex;
   -webkit-box-shadow: 4px 5px 4px -2px rgba(0,0,0,0.68); 
 box-shadow: 4px 5px 4px -2px rgba(0,0,0,0.68);
@@ -256,7 +306,31 @@ box-shadow: 4px 5px 4px -2px rgba(0,0,0,0.68);
   bottom: 0;
   width: 0;
   height: 0;
-  border-left: 2vh solid $color4;
+  border-left: 2vh solid transparent;
   border-top: 3vh solid transparent;
   border-bottom: 3vh solid transparent;
+}
+.leafme{
+  position: absolute;
+  overflow: hidden;
+  right: -10%;
+
+    img {
+    position: relative;
+    object-fit: cover;
+    border-radius: 1.5vw;
+    width: 100%;
+    height: 65%;
+  }
+  .info-container {
+    position: relative;
+    width: 100%;
+    background-color: $color5;
+    height: 40%;
+    top: -5%;
+    padding: 0.5vw 2vw;
+    a {
+      text-decoration: none;
+    }
+  }
 }

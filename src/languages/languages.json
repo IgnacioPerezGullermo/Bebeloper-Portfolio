@@ -23,6 +23,9 @@
       },
       "rockband":{
         "desc": "Pagina desarrollada en HTML y Sass, fue mi primer proyecto. Tiene un lugar especial en mi corazon, puesto que lo empezo todo"
+      },
+      "leafme":{
+        "desc": "Desarrollo de red social con OAuth de Google, integracion con Cloudinary, MercadoPago y notificaciones. Desarrollada en equipo"
       }
     }
   },
@@ -50,6 +53,9 @@
       },
       "rockband":{
         "desc": "HTML and Sass simple front-end page. This is my first project, it has a place in my heart cause it started all"
+      },
+      "leafme":{
+        "desc": "Development of a social media app with OAuth from Google, Cloudinary, MercadoPago and notifications. Developed in a team enviroment"
       }
     }
   }
