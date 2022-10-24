@@ -139,7 +139,7 @@ export const Project = ({ sourceLang }) => {
           <img src={LeafMe} alt="tlf foto" />
         </a>
         <div className="info-container">
-          <a href="https://pi-dogs-henry-flame.vercel.app">
+          <a href="https://final-project-client-uipg.vercel.app">
             <p className="info">Leaf Me</p>
             <p className="info-description">{sourceLang.Project.leafme.desc}</p>
           </a>

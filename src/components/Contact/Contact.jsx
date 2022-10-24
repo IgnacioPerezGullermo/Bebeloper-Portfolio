@@ -60,7 +60,7 @@ export const Contact = ({ sourceLang }) => {
         </Stack>
       </Box>
       <div className="draw-container"></div>
-      <img className="draw-img" src={draw} alt="draw image" />
+      <img className="draw-img" src={draw} alt="drawimage" />
     </div>
   );
 };
